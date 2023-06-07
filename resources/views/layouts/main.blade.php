@@ -14,7 +14,7 @@
 
       @include('partials.header')
 
-      <main>
+      <main class="d-flex flex-column align-items-center">
         @yield('content')
       </main>
 

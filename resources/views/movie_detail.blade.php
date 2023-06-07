@@ -9,11 +9,11 @@
 {{-- container --}}
     <div class="container d-flex flex-wrap align-items-center justify-content-center my-5">
 
-      <div class="text-black my-4 ms-4 me-4 border border-light-dark rounded rounded-sm " style="width: 1000px">
+      <div class="text-black my-4 ms-4 me-4 border border-light-dark rounded rounded-sm " style="width: 800px">
 
             <div class="d-flex justify-content-center">
                 <div>
-                    <img src="" class="card-img-top rounded-start rounded-sm" alt="" style="height: 388px; width: 400px">
+                    <img src="{{ Vite::asset('resources/img/1.jpg') }}" class="card-img-top rounded-start rounded-sm" alt="" style="height: 388px; min-width: 288px; max-width: 400px">
                 </div>
                 <div class="card-body d-flex flex-column justify-content-between align-items-start">
 
@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="ms-auto">
-                      <a href="#" class="btn btn-primary m-3">Details</a>
+                      <a href="{{ route('home') }}" class="btn btn-primary m-3">Home</a>
                     </div>
 
 
