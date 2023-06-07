@@ -18,8 +18,11 @@
                 <div class="card-body d-flex flex-column justify-content-between align-items-start">
 
                     <div>
-                        <h5 class="card-title p-3">Title film</h5>
-                        <p class="card-text mb-1 px-3">Description</p>
+                        <h5 class="card-title p-3">{{ $movie->title }}</h5>
+                        <p class="card-text mb-1 px-3">Original Title: {{ $movie->original_title }}</p>
+                        <p class="card-text mb-1 px-3">Nationality: {{ $movie->nationality }}</p>
+                        <p class="card-text mb-1 px-3">Date: {{ $movie->date }}</p>
+                        <p class="card-text mb-1 px-3">Vote: {{ $movie->vote }}</p>
                     </div>
 
                     <div class="ms-auto">
