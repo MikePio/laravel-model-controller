@@ -23,6 +23,7 @@
                         <p class="card-text mb-1 px-3">Nationality: {{ $movie->nationality }}</p>
                         <p class="card-text mb-1 px-3">Date: {{ $movie->date }}</p>
                         <p class="card-text mb-1 px-3">Vote: {{ $movie->vote }}</p>
+                        <p class="card-text mb-1 px-3">Description: {{ $text }}</p>
                     </div>
 
                     <div class="ms-auto">
