@@ -23,7 +23,7 @@
                   {{-- <p class="card-text mb-1">Vote: {{ $movie['vote']}}</p> --}}
               </div>
               <div class="ms-auto">
-                  <a href="{{ route('movie_detail') }}" class="btn btn-primary">Details</a>
+                  <a href="{{ route('movie_detail', ['id' => $movie->id]) }}" class="btn btn-primary">Details</a>
               </div>
           </div>
       </div>
