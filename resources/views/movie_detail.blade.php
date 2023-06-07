@@ -13,7 +13,7 @@
 
             <div class="d-flex justify-content-center">
                 <div>
-                    <img src="" class="card-img-top rounded-start rounded-sm" alt="" style="height: 389px; width: 400px">
+                    <img src="" class="card-img-top rounded-start rounded-sm" alt="" style="height: 388px; width: 400px">
                 </div>
                 <div class="card-body d-flex flex-column justify-content-between align-items-start">
 
