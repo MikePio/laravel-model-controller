@@ -12,7 +12,7 @@
     @foreach ($movies as $movie)
     <div class="text-black my-3 ms-3 me-3" style="width: calc(100%/5.89);">
       <div class="card" style="height: 535px;">
-          <img src="{{ Vite::asset('resources/img/1.jpg') }}" class="card-img-top" alt="" style="height: 380px;">
+          <img src="{{ Vite::asset('resources/img/'.$movie->id.'.jpg') }}" class="card-img-top" alt="" style="height: 380px;">
           <div class="card-body d-flex flex-column justify-content-between align-items-start">
               <div>
                   <h5 class="card-title">{{ $movie->title }}</h5>

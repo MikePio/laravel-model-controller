@@ -13,7 +13,7 @@
 
             <div class="d-flex justify-content-center">
                 <div>
-                    <img src="{{ Vite::asset('resources/img/1.jpg') }}" class="card-img-top rounded-start rounded-sm" alt="" style="height: 388px; min-width: 288px; max-width: 400px">
+                    <img src="{{ Vite::asset('resources/img/'.$movie->id.'.jpg') }}" class="card-img-top rounded-start rounded-sm" alt="" style="height: 388px; min-width: 288px; max-width: 400px">
                 </div>
                 <div class="card-body d-flex flex-column justify-content-between align-items-start">
 
